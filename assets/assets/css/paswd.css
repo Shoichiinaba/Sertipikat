@@ -1,0 +1,31 @@
+.utama-1{
+	background-color: transparent;
+	display: flex;
+	min-height: 300px;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.utama-1 .kotak{
+	background-color: white;
+	width:500px;
+	margin:auto;
+	padding:12px 12px 8px 12px;
+}
+.utama-1 .kotak .inden{
+	width: 100%;
+	height: 100%;
+}
+.inden .judul {
+	
+	padding-bottom: 12px;
+	border-bottom: 1px solid gray;
+}
+.inden .judul h2{
+	margin: 0px;
+}
+.inden .tombol{
+	padding-top: 12px;
+}
+
+

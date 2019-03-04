@@ -1,0 +1,52 @@
+
+.cont{
+	background-color: transparent;
+	width:100%;
+}
+.cont .cont-panel{
+	background-color: white;
+	max-width: 700px;
+	margin:0 auto;
+	padding:12px 20px;
+}
+#menu_{
+	background-color: transparent;
+	padding-bottom: 12px;
+}
+#menu_ nav{
+	background-color: transparent;
+}
+#menu_ nav a{
+	padding:2px 10px;
+	background-color: transparent;
+	display: inline-block;
+}
+.fl-left{
+	float:left;
+}
+.fl-right{
+	float:right;
+}
+.cont-panel #judul-form h2{
+	margin: 0px;
+	padding-bottom: 17px;
+	border-bottom:1px solid #AAAAAA;;
+}
+.cont-panel #judul-form{
+	background-color: transparent;
+	padding-bottom: 19px;
+}
+#form-panel div{
+	background-color: transparent;
+	padding-bottom: 12px;
+}
+#form-panel div span{
+	display: block;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.btn-width{
+	margin-top: 7px;
+	width:67px;
+}

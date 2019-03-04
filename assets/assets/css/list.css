@@ -1,0 +1,97 @@
+/* Css layout with file list_ */
+.main{
+	background-color: transparent;
+	display: block;
+	position:relative;
+}
+.c_panel{
+	background-color: white;
+	width:788px;
+	margin: 0 auto;
+	padding:12px;
+}
+#judul h2{
+	margin:0px;
+	height:50px;
+	border-bottom: 1px solid rgb(188, 180, 180);
+}
+#panel_tabel{
+	padding-top:12px;
+}
+#centerH{
+	text-align: center;
+}
+#print_b{
+	padding-top: 12px;
+}
+.search{
+	padding-top:18px;
+	display:block;
+	margin-bottom: 4px;
+}
+.search #cari{
+	width:243px;
+	border:1px solid rgb(204, 209, 215);
+	height:30px;
+	border-radius:4px;
+	padding-left:4px;
+	transition: border 0.5s ease 0s, box-shadow 0.5s ease 0s;
+}
+.search #cari:focus{
+	border: 1px solid rgb(102, 175, 233);
+	box-shadow: 0px 0px 4px 2px rgb(213, 233, 249);
+}
+.search input[type=submit]{
+	height: 30px;
+width: 56px;
+background-color: rgb(66, 139, 202);
+border: 1px solid rgb(53, 126, 189);
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-radius: 4px;
+}
+.search input[type=submit]:hover{
+	background-color: rgb(40, 96, 144);
+}
+.search input[type=submit]:hover{
+	border: 2px solid rgb(40, 96, 144);
+}
+
+/* pagination edit style*/
+
+.pagination_ ul{
+	padding-left:0px;
+	overflow: hidden;
+}
+.pagination_ ul li{
+	list-style: none;
+	float:left;
+	margin-left:6px;
+}
+.pagination_ ul li:first-child{
+	margin-left:0px;
+}
+.pagination_ ul li a{
+	display: block;
+	padding: 5px 10px;
+	border-radius:5px;
+}
+.pagination_ ul li a:hover{
+	background-color: rgb(66, 139, 202);
+	color:white;
+}
+.pagination_ ul li span{
+	background-color: rgb(66, 139, 202);
+	color:white;
+	padding:5px 10px;
+	display: block;
+	border-radius:5px;
+}
+#ket{
+	display: block;
+	margin-top: 23px;
+}
+
+/* close edit pagination */
+
+/* pembaruan */

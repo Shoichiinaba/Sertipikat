@@ -1,0 +1,38 @@
+.info{
+	background-color:transparent;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-top:12px;
+}
+.info:first-child{
+	margin-top:0px;
+}
+.font-antrian{
+		color:black;
+		font-size:15px;
+		font-weight:bold;
+}
+.font-acce{
+	font-family:Arial;
+	font-size:15px;
+	color:black;
+}
+.panel-info{
+	background-color:transparent;
+	width:100px;
+	float:left;
+}
+.panel-info-text{
+	background-color:transparent;
+}
+.info:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.marginTop{
+	margin-top:12px;
+}
+.frame{
+	display:none;
+}

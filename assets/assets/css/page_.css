@@ -1,0 +1,247 @@
+.root-panel{
+	background-color: transparent;
+	width:100%;
+	padding-bottom: 5px;
+}
+
+#menu_{
+	background-color: transparent;
+	padding-bottom: 12px;
+}
+#menu_ nav{
+	background-color: transparent;
+}
+#menu_ nav a{
+	padding:2px 10px;
+	background-color: transparent;
+	display: inline-block;
+}
+.fl-left{
+	float:left;
+}
+.fl-right{
+	float:right;
+}
+
+.root-panel .panel_body{
+	background-color: white;
+	width:850px;
+	height: auto;
+	margin:0 auto;
+	padding:12px;
+}
+.panel_body .pencarian{
+	padding-bottom: 12px;
+}
+.panel_body #judul-halaman h2{
+	margin:0px;
+	padding-bottom: 12px;
+	border-bottom:1px solid #AAAAAA;
+}
+.panel_body #judul-halaman{
+	padding-bottom: 20px;
+}
+.pencarian input[type=text]{
+	height: 30px;
+	width: 234px;
+	border-radius: 4px;
+	border:1px solid #D7DCE0;
+	font-size: 14px;
+	padding-left: 6px;
+	transition: border 0.5s, box-shadow 0.5s;
+}
+.pencarian input[type=text]:focus{
+	border:1px solid #66AFE9;
+	box-shadow:0px 0px 4px 2px #D5E9F9
+}
+
+.pencarian button{
+	height: 30px;
+	width:56px;
+	background-color: #428BCA;
+	border:1px solid #357EBD;
+	color:white;
+	font-weight: bold;
+	border-radius:4px;
+}
+.pencarian button:hover{
+	background-color: #286090;
+}
+.pencarian button:active{
+	border:2px solid #286090;
+}
+.panel_body div.desa{
+	background-color: transparent;
+	width:400px;
+	float: left;
+}
+.panel_body div.sert{
+	background-color: transparent;
+	width:400px;
+	height:auto;
+	float:right;
+}
+.root-panel .panel_body::after{
+	content: "";
+	display: block;
+	clear:both;
+}
+#ket_laporan{
+	margin-top: 20px;
+}
+#ket_laporan strong{
+	display: block;
+	padding-bottom: 8px;
+}
+#ket_laporan div{
+	padding-bottom: 5px;
+}
+.cl-merah{
+	color:rgb(217, 83, 79);
+	display:inline-block;
+	width:90px;
+}
+.cl-hijau{
+	color:rgb(92, 184, 92);
+	display:inline-block;
+	width:90px;
+}
+.cl-proses{
+	color: rgb(248, 119, 119);
+	display:inline-block;
+	width:90px;
+}
+.belum{
+	background-color: rgb(240, 218, 218);
+	border:1px solid rgb(138, 116, 116);
+	width:85%;
+	color:black;
+	font-weight: bold;
+	border-radius:4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 15px;
+}
+.belum:disabled{
+	opacity:0.65;
+	cursor:not-allowed;
+}
+
+.berhasil{
+	/*Digunakan jika salah satu telah berhasil
+	melewati proses*/
+	background-color: rgb(92, 184, 92);
+	color:white;
+	border:1px solid rgb(55, 167, 60);
+}
+.masih_proses{
+    background-color: #2333f2;
+    color:white;
+}
+.gagal{
+	/*Digunakan jika salah satu belum
+	melewati proses*/
+	background-color: rgb(245, 46, 46);
+	border: 1px solid rgb(231, 42, 42);
+	color:white;
+}
+.proses{
+	background-color: rgb(24, 22, 22);
+	border: 1px solid rgb(36, 28, 28);
+	color:white;
+}
+
+#judul{
+	background-color: #FF265E;
+	width:100%;
+	text-align: center;
+	padding-bottom: 9px;
+	padding-top:9px;
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.panel_body #keterangan{
+	padding-bottom: 12px;
+}
+#keterangan nav:nth-child(2n){
+	background-color: #F9F9F9;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#keterangan nav:nth-child(2n-1){
+	background-color: #A9DDDD;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+span.sp-left{
+	margin-left: 10px;
+	float:left;
+}
+span.sp-right{
+	margin-right: 10px;
+	float:right;
+	font-style: italic;
+}
+
+/*Dibawah ini adalah script untuk animasi pada css*/
+
+@-webkit-keyframes bgcolor{
+	0%{
+
+	}
+	100%{
+		background-color: rgb(92, 184, 92);
+		color:white;
+		border:1px solid rgb(55, 167, 60);
+	}
+}
+@-moz-keyframes bgcolor{
+	0%{
+
+	}
+	100%{
+		background-color: rgb(92, 184, 92);
+	color:white;
+	border:1px solid rgb(55, 167, 60);
+	}
+}
+@-o-keyframes bgcolor{
+	0%{
+
+	}
+	100%{
+		background-color: rgb(92, 184, 92);
+	color:white;
+	border:1px solid rgb(55, 167, 60);
+	}
+}
+
+@keyframes bgcolor{
+	0%{
+
+	}
+	100%{
+		background-color: rgb(92, 184, 92);
+	color:white;
+	border:1px solid rgb(55, 167, 60);
+	}
+}
+.animate{
+	animation-name: bgcolor;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: bgcolor;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-name: bgcolor;
+	-moz-animation-duration: 0.5s;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-name: bgcolor;
+	-o-animation-duration: 0.5s;
+	-o-animation-fill-mode: forwards;
+}
+#loader{
+	padding-left: 12px;
+	display: none;
+}
